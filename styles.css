@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #0a0a0a;
+  color: #00c3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 2px solid #00c3ff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00c3ff;
+}
+.card .card-link {
+  text-decoration: none;
+  color: #00c3ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .card-link .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.card .card-link h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */
